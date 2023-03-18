@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AzkarActivity"
+    android:background="#F1EEE4">
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/footer"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ScrollView
+        android:layout_width="369dp"
+        android:layout_height="554dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/header"
+        app:layout_constraintEnd_toEndOf="@+id/header"
+        app:layout_constraintStart_toStartOf="@+id/header"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/sbah"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar1"
+                android:text="اذكار الصباح"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/msa"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar2"
+                android:text="أذكار المساء"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sbah" />
+
+            <Button
+                android:id="@+id/afterpray"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar3"
+                android:text="أذكار بعد الصلاة"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/msa" />
+
+            <Button
+                android:id="@+id/beforsleep"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar4"
+                android:text="أذكار قبل النوم"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/afterpray" />
+
+            <Button
+                android:id="@+id/wakingup"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar5"
+                android:text="أذكار الاستيقاظ"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/beforsleep" />
+
+            <Button
+                android:id="@+id/adia"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar6"
+                android:text="أدعية قرآنية"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/wakingup" />
+
+            <Button
+                android:id="@+id/adiaprofits"
+                android:layout_width="280dp"
+                android:layout_height="75dp"
+                android:background="@drawable/icon"
+                android:onClick="Azkar7"
+                android:text="أدعية الأنبياء	"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/adia" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button
+
+        android:id="@+id/homeptn"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/home"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="toHomeFromAzkar"/>
+
+    <Button
+
+        android:id="@+id/muteptn"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/mutepng"
+        app:backgroundTint="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeptn"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

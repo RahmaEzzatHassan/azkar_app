@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sunrise" type="id" />
+    <item name="dhuhr" type="id" />
+    <item name="asr" type="id" />
+    <item name="maghrib" type="id" />
+    <item name="ishaa" type="id" />
+
+</resources>

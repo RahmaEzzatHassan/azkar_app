@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="الإشعارت">
+        <menu>
+            <group android:id="@+id/G1">
+                <item
+                    android:id="@+id/app_bar_note1"
+                    android:title="آذان"
+                    app:actionLayout="@layout/switch_item"/>
+                <item
+                    android:id="@+id/app_bar_note2"
+                    android:title="أذكار"
+                    app:actionLayout="@layout/switch_item"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="اللغة">
+        <menu>
+            <group android:id="@+id/G2">
+                <item
+                    android:id="@+id/app_bar_note3"
+                    android:title="اللغة العربية"
+                    app:actionLayout="@layout/switch_item" />
+                <item
+                    android:id="@+id/app_bar_note4"
+                    android:title="اللغة الإنجليزية"
+                    app:actionLayout="@layout/switch_item" />
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="اللون">
+        <menu>
+            <group android:id="@+id/G3">
+                <item
+                    android:id="@+id/app_bar_note5"
+                    android:title="أبيض"
+                    app:actionLayout="@layout/switch_item" />
+                <item
+                    android:id="@+id/app_bar_note6"
+                    android:title="أسود"
+                    app:actionLayout="@layout/switch_item" />
+            </group>
+        </menu>
+    </item>
+</menu>

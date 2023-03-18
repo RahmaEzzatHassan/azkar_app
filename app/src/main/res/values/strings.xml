@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Azkar</string>
+    <string name="fajer">الفجر</string>
+    <string name="sunrise">الشروق</string>
+    <string name="dhuhr">الظهر</string>
+    <string name="asr">العصر</string>
+    <string name="maghrib">المغرب</string>
+    <string name="ishaa">العشاء</string>
+    <string name="check_fajer" />
+    <string name="check_sunrise" />
+    <string name="check_dhuhr" />
+    <string name="check_asr" />
+    <string name="check_maghrib" />
+    <string name="check_ishaa" />
+    <string name="prayer_timings">مواقيت الصلاة</string>
+    <string name="time_fajer"></string>
+    <string name="time_sunrise"></string>
+    <string name="time_dhuhr"></string>
+    <string name="time_asr"></string>
+    <string name="time_maghrib"></string>
+    <string name="time_ishaa"></string>
+    <string name="ques1">من هو الذي كان تستحي منه ملائكة السماء؟</string>
+    <string name="ans1">أبوبكر الصديق</string>
+    <string name="ans2">أبوعبيدة الجراح</string>
+    <string name="ans3">عثمان بن عفان</string>
+    <string name="correct_ans"></string>
+    <string name="wrong_ans">اجابة خاطئة</string>
+    <string name="next">التالي</string>
+    <string name="score">النتيجة</string>
+    <string name="timer">10</string>
+</resources>
