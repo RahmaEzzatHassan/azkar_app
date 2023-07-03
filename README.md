@@ -47,8 +47,6 @@ Contributions to AZKAR are welcome! If you would like to contribute to the proje
 5. Open a pull request with a detailed description of your changes.
 
 
-## License
-
-This project is licensed under the CLA License Feel free to use, modify, and distribute the code for personal purposes.
+Feel free to use, modify, and distribute the code for personal purposes.
 
 **Note:** AZKAR is an independent project and is not affiliated with any specific Islamic organization or group. It aims to provide a convenient tool for individuals to practice and enhance their Islamic lifestyle.
