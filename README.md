@@ -50,3 +50,14 @@ Contributions to AZKAR are welcome! If you would like to contribute to the proje
 Feel free to use, modify, and distribute the code for personal purposes.
 
 **Note:** AZKAR is an independent project and is not affiliated with any specific Islamic organization or group. It aims to provide a convenient tool for individuals to practice and enhance their Islamic lifestyle.
+
+
+this app was created by: 
+Serag Amgad <br>
+Omar Abo El-khair<br>
+Ziad Said<br>
+Rajab Hassan<br>
+Rahma Ezzat<br>
+Ebtssam Elhalwany<br>
+Aya Asqalany<br>
+Asmaa Hamdy<br>
