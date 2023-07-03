@@ -1,7 +1,8 @@
 # AZKAR - Android Islamic App
 
-![AZKAR Logo](![2](https://github.com/omar546/azkar_app/assets/71936776/a0571353-2251-4706-9fef-e55ffcec167a)
-)
+<p align="center">
+  <img src="https://github.com/omar546/azkar_app/assets/71936776/67980585-ceda-4ee3-96a6-6b9b4391bedf" alt="Image" />
+</p>
 
 AZKAR is an Android application developed using Java, designed to provide a comprehensive set of Islamic features and services for users who want to enhance their religious practice. This app includes several functionalities such as Quran reading, Azkar reading, Pop Quiz, prayer times, and Qibla direction. AZKAR aims to make it convenient for users to access Islamic resources and engage in religious activities right from their mobile devices.
 
